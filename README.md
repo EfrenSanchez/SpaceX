@@ -28,18 +28,29 @@ You can use git or download it directly from github
 
 Open your cloned folder. Then, using your favorite package manager get the dependencies.
 
-Example using npm
+Example using npm:
 
-#### `npm install`
-#### `cd client && npm install`
+    $ npm install
+    $ cd client && npm install
 
 ### 👉 Available Scripts
 
 In the project directory, you can run:
 
-#### `npm dev`
+#### - Run server & client (:3000 & :5000): 
+    $ npm run dev  
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000/) to view it in the browser.
+#### - Server only (:5000):
+    $ npm run server
+
+#### - Client only (:3000):
+    $ npm run client 
+
+#### - Build for production (Builds into " ./public "):
+    $ cd client && npm run build
+
+#### - Graphiql - http://localhost:5000/graphql
+
 
 ## 🏗️ Built With
 
