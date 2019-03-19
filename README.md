@@ -20,9 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### 👉 Clone the repository to your machine
 
-You can use git or download it directly from github
+#### 1. Copy the URL
+    https://github.com/EfrenSanchez/SpaceX.git
 
-![](https://imgur.com/bpHE9K6.png)
+#### 2. Term:
+    $ git clone https://github.com/EfrenSanchez/SpaceX.git
+    $ git submodule init
+    $ git submodule update
 
 ### 👉 Get the dependencies
 
